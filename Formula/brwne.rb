@@ -10,6 +10,6 @@ class Brwne < Formula
   end
 
   test do
-    system "#{bin}/br" "--version"
+    system "#{bin}/br"
   end
 end
