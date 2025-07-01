@@ -5,16 +5,16 @@ class Brwne < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/The-Pirateship/brwne/releases/download/v0.0.3/br-darwin-arm64.tar.gz"
+      url "https://github.com/The-Pirateship/homebrew-brwne/releases/download/v0.0.3/br-darwin-arm64.tar.gz"
       sha256 "417c26da6e911a83435eeccb317dc9a0393ee62f532d0a7a1f88eea120414cef"
     else
-      url "https://github.com/The-Pirateship/brwne/releases/download/v0.0.3/br-darwin-amd64.tar.gz"
+      url "https://github.com/The-Pirateship/homebrew-brwne/releases/download/v0.0.3/br-darwin-amd64.tar.gz"
       sha256 "05d2c161a2e2d31a3bbefb234ad5caf188133b2d86837ae3b922af04e67e09ed"
     end
   end
 
   on_linux do
-    url "https://github.com/The-Pirateship/brwne/releases/download/v0.0.3/br-linux-amd64.tar.gz"
+    url "https://github.com/The-Pirateship/homebrew-brwne/releases/download/v0.0.3/br-linux-amd64.tar.gz"
     sha256 "__SHA_LINUX__"
   end
 
