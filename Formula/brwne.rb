@@ -6,7 +6,7 @@ class Brwne < Formula
   version "0.0.1"
 
   def install
-    bin.install "brwne"
+    bin.install "br"
   end
 
   test do
