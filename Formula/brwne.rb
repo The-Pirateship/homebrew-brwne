@@ -1,20 +1,20 @@
 class Brwne < Formula
   desc "Brwne CLI for internal developer tools"
   homepage "https://brwne.net"
-  version "0.0.3"
+  version "0.0.3.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/The-Pirateship/homebrew-brwne/releases/download/v0.0.3/br-darwin-arm64.tar.gz"
-      sha256 "417c26da6e911a83435eeccb317dc9a0393ee62f532d0a7a1f88eea120414cef"
+      url "https://github.com/The-Pirateship/homebrew-brwne/releases/download/v0.0.3.1/br-darwin-arm64.tar.gz"
+      sha256 "c8d937c2727110af986c9b3ded5d6524bb82f82d0fb9ae6fea1ae07f91fa234f"
     else
-      url "https://github.com/The-Pirateship/homebrew-brwne/releases/download/v0.0.3/br-darwin-amd64.tar.gz"
-      sha256 "05d2c161a2e2d31a3bbefb234ad5caf188133b2d86837ae3b922af04e67e09ed"
+      url "https://github.com/The-Pirateship/homebrew-brwne/releases/download/v0.0.3.1/br-darwin-amd64.tar.gz"
+      sha256 "df38303afd5942083dcea27e7cd15e605a17eb2abf9a26aba902108ddeb48485"
     end
   end
 
   on_linux do
-    url "https://github.com/The-Pirateship/homebrew-brwne/releases/download/v0.0.3/br-linux-amd64.tar.gz"
+    url "https://github.com/The-Pirateship/homebrew-brwne/releases/download/v0.0.3.1/br-linux-amd64.tar.gz"
     sha256 "__SHA_LINUX__"
   end
 
